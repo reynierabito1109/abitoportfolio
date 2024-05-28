@@ -1,0 +1,14 @@
+{% extends "portfolio/base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="center-box">
+        <h1 class="info-heading">Biodata</h1>
+        <div class="textbox biodata-content">
+            {{ biodata|safe }}
+        </div>
+        <p><strong>Please refer to this link to have a cleaner look at the biodata:</strong></p>
+        <a href="https://drive.google.com/file/d/1DLf6QkE1RokNVetVmnvioXXq9IUI_JNb/view?usp=sharing" class="link-button" target="_blank">View Biodata
+        </a>
+    </div>
+{% endblock %}

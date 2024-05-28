@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.center-box {
+    text-align: center;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #48b393;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button:hover {
+    background-color: #0a503e; 
+}
+
+.textbox {
+    margin-top: 20px;
+}
+
+.intro, .description, .hobbies, .info-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.intro {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.hobbies {
+    margin-bottom: 10px;
+
+}
+
+.info-heading {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.home-heading {
+    font-size: 36px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+/* Center the list item bullets (dots) in listing */
+ul {
+    list-style-position: inside;
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-picture2 {
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+  }
+
+.profile-picture {
+    width: 300px; 
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #0077B5; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #005688;
+}
+
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.biodata-content p {
+    font-size: 18px; 
+    line-height: 1.6;
+    margin-bottom: 10px; 
+    text-align: justify;
+    color: #333;
+}
+
+.link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #48b393;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-family: 'Roboto', sans-serif; 
+    margin-top: 10px; /
+}
+
+.link-button:hover {
+    background-color: #0a503e;
+}

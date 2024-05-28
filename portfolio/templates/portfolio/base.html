@@ -1,0 +1,34 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'portfolio/index.css' %}">
+    <title>Home Page</title>
+</head>
+<body>
+    <div class="header">
+        <h1>My Portfolio</h1>
+        <p>This is My HTML Project, I hope you like it ^^ </p>
+    </div>
+
+    <div class="button-container">
+        {% block navigation_buttons %}
+        <a href="{% url 'home' %}" class="button">Home</a>
+        <a href="{% url 'about' %}" class="button">About</a>
+        <a href="{% url 'contact' %}" class="button">Contact</a>
+        <a href="{% url 'biodata' %}" class="button">Biodata</a>
+        <a href="{% url 'page2' %}" class="button">Page 2</a>
+        {% endblock %}
+    </div>
+
+    <div class="content">
+        {% block content %}
+    
+        {% endblock %}
+    </div>
+
+</body>
+</html>

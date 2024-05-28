@@ -1,0 +1,37 @@
+{% extends "portfolio/base.html" %}
+
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <div class="center-box">
+        <img src="{% static 'portfolio/Me1.jpg' %}" alt="My Profile Picture" class="profile-picture">
+        <h1>About Me</h1>
+        <div class="textbox">
+            <p class="intro">
+                My name is <strong>Reynier John V. Abito</strong> and I am a college student. I'm currently a 4th Year college student taking a BSIT course. I am passionate about clean and efficient code, and always strive to keep up with the latest developments in web technologies.
+            </p>
+            <img src="{% static 'portfolio/Me3.jpg' %}" alt="My Profile Picture" class="profile-picture2">
+            <p class="description">
+                I also happen to be an ISTP-A/T personality type, which means I enjoy hands-on activities and thrives in fast-paced environments.
+            </p>
+            <p class="hobbies">
+                When I'm not busy with work or school, I love gaming on my PC. I'm a big fan of action, adventure, and RPG games.
+            </p>
+            <p class="hobbies">
+                Aside from gaming, I'm also a huge music lover. I enjoy listening to a variety of genres, including rock, metal, EDM, and lo-fi hip-hop. Music is like therapy for me, and I often use it to boost my mood or relax after a long day.
+            </p>
+            <h2 class="info-heading">School Information</h2>
+            <p class="info-text">School Name: Centro Escolar University</p>
+            <p class="info-text">College: 4th Year</p>
+            <h2 class="info-heading">Education</h2>                
+            <ul>
+                <li>Tertiary, Centro Escolar University-Legazpi Campus (2020-Present)</li>
+                <li>Secondary, STI Academic Center Sta. Mesa (2018-2020)</li>
+                <li>Secondary, NAMEI Polytechnic Institute (2012-2018)</li>
+                <li>Primary, San Felipe Neri Parochial School (2006-2012)</li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}

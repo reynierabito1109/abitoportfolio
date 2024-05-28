@@ -1,0 +1,22 @@
+{% extends "portfolio/base.html" %}
+
+{% block navigation_buttons %}
+
+{% endblock %}
+
+{% block content %}
+<div class="home-container">
+    <div class="center-box">
+        <h1 class="home-heading">
+            Welcome to the Home Page!
+        </h1>
+        <p class="home-description">
+            This is the place where you can learn more about my journey and skills in the field of Information Technology.
+        </p>
+        <div class="home-buttons">
+            <a href="{% url 'about' %}" class="button">Learn About Me</a>
+            <a href="{% url 'contact' %}" class="button">Get in Touch</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
